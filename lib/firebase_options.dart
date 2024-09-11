@@ -50,21 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCxLqPdqKskABrtHYO2EQDDyc2dzXtXykE',
-    appId: '1:605630445144:android:3ca56995d18a244e2d7c2d',
-    messagingSenderId: '605630445144',
-    projectId: 'pishingdetectapp',
-    storageBucket: 'pishingdetectapp.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '..com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDpKFu26IyZ9DHXgkF-WiQjzIl_zUxm5DU',
-    appId: '1:605630445144:ios:45394d3c25e059132d7c2d',
-    messagingSenderId: '605630445144',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'pishingdetectapp',
     storageBucket: 'pishingdetectapp.appspot.com',
-    androidClientId: '605630445144-2sg9euclm8j3de81hlodh8m3qtta7klv.apps.googleusercontent.com',
-    iosClientId: '605630445144-jkcanvkbithgrcviqedm5m4dps18rg08.apps.googleusercontent.com',
-    iosBundleId: 'com.example.phishingDetectionApp',
+    androidClientId: '-.apps.googleusercontent.com',
+    iosClientId: '-.apps..com',
+    iosBundleId: 'com.e',
   );
 }
