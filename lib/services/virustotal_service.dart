@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class VirusTotalService {
   final String apiKey =
-      '1fe85af691356ce314bb25b956695c87918cd22f09fadfcf9c9a3d8a45b91f36';
+      '';
 
   Future<VirusTotalResult> scanUrl(String url) async {
     const scanUrl = 'https://www.virustotal.com/vtapi/v2/url/scan';
